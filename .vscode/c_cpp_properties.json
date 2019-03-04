@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\jabenn\\AppData\\Local\\Arduino15\\packages\\AZ3166\\tools\\**",
+                "C:\\Users\\jabenn\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.1\\**",
+                "/Users/jimbennett/Library/Arduino15/packages/AZ3166/hardware/stm32f4/1.6.2/**",
+                "/Users/jimbennett/Library/Arduino15/packages/AZ3166/tools/**"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\jabenn\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.6.1\\cores\\arduino\\Arduino.h",
+                "/Users/jimbennett/Library/Arduino15/packages/AZ3166/hardware/stm32f4/1.6.2/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
