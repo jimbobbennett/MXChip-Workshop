@@ -1,8 +1,8 @@
 # MXChip Workshop
 
-This workshop is a hands-on lab for getting started building a cloud connected IoT device using the [MXChip Iot DevKit prototyping board](http://mxchip.com/az3166) and the [Azure IoT Hub](https://azure.microsoft.com/services/iot-hub/?WT.mc_id=mxchipworkshop-github-jabenn).
+This workshop is a hands-on lab for getting started building a cloud connected IoT device using the [MXChip Iot DevKit prototyping board](http://mxchip.com/az3166) and the [Azure IoT Hub](https://azure.microsoft.com/services/iot-hub/?WT.mc_id=academic-0000-jabenn).
 
-The final project that will be created is an internet connected temperature sensor, with a warning light if the temperature is above a certain threshold. The temperature will be reported to Azure IoT Hub and stored in a [Cosmos DB collection](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=mxchipworkshop-github-jabenn). This value can be retrieved via an API built using [Azure functions](https://azure.microsoft.com/services/functions/?WT.mc_id=mxchipworkshop-github-jabenn). To control the LED, a threshold will be set using another Azure Function API, and this will sync to the device using a [device twin](https://docs.microsoft.com/azure/iot-hub/tutorial-device-twins/?WT.mc_id=mxchipworkshop-github-jabenn).
+The final project that will be created is an internet connected temperature sensor, with a warning light if the temperature is above a certain threshold. The temperature will be reported to Azure IoT Hub and stored in a [Cosmos DB collection](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-0000-jabenn). This value can be retrieved via an API built using [Azure functions](https://azure.microsoft.com/services/functions/?WT.mc_id=academic-0000-jabenn). To control the LED, a threshold will be set using another Azure Function API, and this will sync to the device using a [device twin](https://docs.microsoft.com/azure/iot-hub/tutorial-device-twins/?WT.mc_id=academic-0000-jabenn).
 
 ## What is the MXChip
 
@@ -14,7 +14,7 @@ The MXChip is an Arduino compatible prototyping board. It is an all-in-one board
 
 Azure IoT Hub is an Azure service that allows you to connect, monitor and manage IoT devices at scale, from a few to billions. IoT Hub is an open and flexible cloud platform as a service that supports open-source SDKs and multiple protocols.
 
-You can read more at [azure.microsoft.com/services/iot-hub](https://azure.microsoft.com/services/iot-hub/?WT.mc_id=mxchipworkshop-github-jabenn)
+You can read more at [azure.microsoft.com/services/iot-hub](https://azure.microsoft.com/services/iot-hub/?WT.mc_id=academic-0000-jabenn)
 
 ## Getting started
 
@@ -34,10 +34,10 @@ This workshop is based on the MXChip Iot DevKit, so you will need to purchase on
 
 You will need to install a few applications and tools to be able to program this board:
 
-* [Visual Studio Code](https://code.visualstudio.com/Download/?WT.mc_id=mxchipworkshop-github-jabenn)
+* [Visual Studio Code](https://code.visualstudio.com/Download/?WT.mc_id=academic-0000-jabenn)
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software) - **NOTE** On Windows DO NOT install using the Windows store, instead use the *Windows Installer, for Windows XP and up*.
-* [.NET Core SDK](https://dotnet.microsoft.com/download)
-* [Azure Functions Core Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local/?WT.mc_id=mxchipworkshop-github-jabenn)
+* [.NET Core SDK](https://dotnet.microsoft.com/download?WT.mc_id=academic-0000-jabenn)
+* [Azure Functions Core Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local/?WT.mc_id=academic-0000-jabenn)
 * You may need to install a USB driver or configure USB support to communicate with the MXChip.
 
   * Windows: Download and install USB driver from [STMicro](http://www.st.com/en/development-tools/stsw-link009.html).
@@ -58,9 +58,9 @@ You will need to install a few applications and tools to be able to program this
 
 ### Azure account
 
-To use Azure IoT Hub you will need an Azure subscription. If you don't have a subscription you can sign up for free at [azure.microsoft.com/free/](https://azure.microsoft.com/free/?WT.mc_id=mxchipworkshop-github-jabenn). You will need a credit card for verification purposes only, you will not be billed unless you decide to upgrade your account to a paid offering.
+To use Azure IoT Hub you will need an Azure subscription. If you don't have a subscription you can sign up for free at [azure.microsoft.com/free/](https://azure.microsoft.com/free/?WT.mc_id=academic-0000-jabenn). You will need a credit card for verification purposes only, you will not be billed unless you decide to upgrade your account to a paid offering.
 
-If you are a student aged 18 and up, or teacher and have an email address from an academic institution, you can sign up for the free Azure for Students offer at [azure.microsoft.com/free/students](https://azure.microsoft.com/free/students/?WT.mc_id=mxchipworkshop-github-jabenn). This gives you the same services and credit as the free account, but you don't need a credit card.
+If you are a student aged 18 and up, or teacher and have an email address from an academic institution, you can sign up for the free Azure for Students offer at [azure.microsoft.com/free/students](https://azure.microsoft.com/free/students/?WT.mc_id=academic-0000-jabenn). This gives you the same services and credit as the free account, but you don't need a credit card.
 
 At the time of writing the free account will give you US$200 of free credit to spend on what you like in the first 30 days ($100 for the student account), 12 months of free services, plus a load of services that have tiers that are always free.
 
@@ -107,4 +107,4 @@ There is a growing catalog of projects from both the Microsoft IoT teams and the
 
 ### Host this workshop
 
-Please get in touch if you would like to host this workshop at your meetup group or community event. There are Microsoft Cloud Advocates [all around the world](https://developer.microsoft.com/advocates/index.html?WT.mc_id=mxchipworkshop-github-jabenn) who can help host this event.
+Please get in touch if you would like to host this workshop at your meetup group or community event. There are Microsoft Cloud Advocates [all around the world](https://developer.microsoft.com/advocates/index.html?WT.mc_id=academic-0000-jabenn) who can help host this event.
